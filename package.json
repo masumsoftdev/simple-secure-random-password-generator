@@ -1,0 +1,20 @@
+{
+  "name": "simple-secure-random-password-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Masum Billah",
+  "license": "MIT",
+  "description": "A simple and customizable random password generator package for generating strong, secure passwords.",
+  "keywords": [
+    "password",
+    "random",
+    "password-generator",
+    "security",
+    "npm",
+    "generator",
+    "nodejs"
+  ]
+}
