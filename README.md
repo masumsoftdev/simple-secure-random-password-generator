@@ -49,12 +49,12 @@ You can change the options dynamically using the `setOptions()` method:
 
 ```javascript
 // Update options later if needed
-passwordGenerator.setOptions({
+securePasswordGenerator.setOptions({
     includeSymbols: false
 });
 
 // Generate a new password with updated options
-const newPassword = passwordGenerator.generatePassword(12); // Update the password lenght if needed ( 4, 6, 8) etc
+const newPassword = securePasswordGenerator.generatePassword(12); // Update the password lenght if needed ( 4, 6, 8) etc
 console.log(newPassword); // Outputs a 12-character password without symbols
 ```
 
@@ -73,13 +73,15 @@ If no character sets are selected, an error will be thrown:
 
 ```javascript
 try {
-    const password = passwordGenerator.generatePassword(10);
+    const password = securePasswordGenerator.generatePassword(10);
 } catch (error) {
     console.error(error.message); // Outputs: "No character set selected"
 }
 ```
 ## Version
 
+**1.0.1**  
+-- Improvement of usage
 **1.0.0**  
 -- Initial release
 
